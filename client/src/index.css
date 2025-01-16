@@ -3,21 +3,38 @@
 @tailwind utilities;
 
 * {
-    font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 @media screen and (min-width: 480px) {
-    .card:nth-child(7n + 1) {
-        grid-column: auto/span 2;
-        grid-row: auto/span 2;
-    }
+  .card:nth-child(7n + 1) {
+    grid-column: auto/span 2;
+    grid-row: auto/span 2;
+  }
 }
 
 .prompt::-webkit-scrollbar {
-    width: 5px;
+  width: 2px;
 }
- 
+
 .prompt::-webkit-scrollbar-thumb {
   background-color: #666e75;
-  border-radius: 5px;
+  border-radius: 2px;
+}
+
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  /* Narrower scrollbar width */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4B5563;
+  /* Darker color for the scrollbar thumb */
+}
+
+::-webkit-scrollbar-track {
+  background: #F3F4F6;
+  /* Lighter color for the track */
 }

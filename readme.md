@@ -1,7 +1,3 @@
-Here’s a detailed README file for your **Art3Mis** project:
-
----
-
 # Art3Mis - AI Image Generation Platform
 
 **Art3Mis** is a cutting-edge platform for AI-generated art. It allows users to create stunning AI-generated images, share them on a community page, and explore creations from other users. Built with modern technologies for scalability and performance, Art3Mis provides a seamless experience for artists and enthusiasts alike.

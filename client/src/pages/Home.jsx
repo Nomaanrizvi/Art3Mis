@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Loader from '../Components/Loader'
 import Card from '../Components/Card'
 import FormField from '../Components/FormField'
+import logo_2 from '../assets/logo_2.png'
 
 
 const RenderCards = ({ data, title }) => {
@@ -28,7 +29,7 @@ const Home = () => {
       setLoading(true)
 
       try {
-        const response = await fetch('http://localhost:8080/api/v1/post', {
+        const response = await fetch('https://art3mis.onrender.com/api/v1/post', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',

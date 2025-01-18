@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import {BrowserRouter, Link, Route, Routes} from 'react-router-dom'
-import { logo } from './assets'
 import Home from './pages/Home'
 import CreatePost from './pages/CreatePost'
 
